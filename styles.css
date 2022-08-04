@@ -12,8 +12,43 @@ html {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: white;
     color: black;
     margin: 0;
 }
+
+header {
+    position: relative;
+    padding: 3rem;
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    top: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    position: absolute;
+    top: 0.7rem;
+    left: 2rem;
+}
+
+nav li {
+    display: inline;
+    margin-left: 2rem;
+
+}
+
+main {
+    margin: 1rem auto;
+}
+
+main section {
+    margin-top: 6rem;
+    padding: 2rem;
+}
+
