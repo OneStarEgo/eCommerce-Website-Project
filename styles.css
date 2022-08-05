@@ -48,6 +48,10 @@ main {
     width: 80%;
 }
 
+.section-wrapper {
+    height: 250px;
+}
+
 main section {
     margin-top: 6rem;
     padding: 2rem;
@@ -57,6 +61,22 @@ main section {
     float: left;
     margin-right: 3rem;
     width: 100%;
+}
+
+.home-section {
+    background-color: rgb(204, 160, 50);
+}
+
+.about-section {
+    background-color: rgb(50, 86, 204);
+}
+
+.products-section {
+    background-color: rgb(50,204,106);
+}
+
+.contact-section {
+    background-color: darkorchid;
 }
 
 footer {
