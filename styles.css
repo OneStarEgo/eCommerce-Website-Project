@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: white;
     color: black;
     margin: 0;
@@ -23,26 +23,23 @@ header {
     padding: 3rem;
 }
 
-nav a {
-    font-size: 20px;
-    text-decoration: none;
-    position: absolute;
-    top: 1rem;
-}
-
-nav ul {
+ul {
     list-style-type: none;
-    position: absolute;
-    top: 0.7rem;
-    left: 2rem;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-nav li {
+li {
+    float: left;
+}
+
+li a {
     display: inline;
-    margin-left: 2rem;
-
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
 }
-
 main {
     margin: 1rem auto;
     width: 80%;
@@ -57,10 +54,13 @@ main section {
     padding: 2rem;
 }
 
-.home img {
-    float: left;
-    margin-right: 3rem;
-    width: 100%;
+.home {
+    background-image: url(assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 .home-section {
