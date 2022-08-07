@@ -41,6 +41,10 @@ li a {
     text-decoration: none;
 }
 
+.logo {
+    text-align: center;
+}
+
 .search-container {
     position: absolute;
     top: 50%;
@@ -65,12 +69,7 @@ main section {
 }
 
 .home-section {
-    background-image: url(./assets/eCommerce\ Site\ Resources/UX-HTML-CSS/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
-    background-size: cover;
-    padding-top: 30px;
-    padding-bottom: 40px;
-    margin-left: 2em;
-    margin-right: 2em;
+    background-image: url("./assets/eCommerce Site Resources/UX-HTML-CSS/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
 }
 
 .home-section {
@@ -84,6 +83,8 @@ main section {
 .products-section {
     background-color: rgb(50,204,106);
 }
+
+
 
 .contact-section {
     background-color: darkorchid;
