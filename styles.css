@@ -40,6 +40,16 @@ li a {
     padding: 16px;
     text-decoration: none;
 }
+
+.search-container {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    height: 40px;
+    border-radius: 7px;
+    padding: 10px;
+}
+
 main {
     margin: 1rem auto;
     width: 80%;
@@ -54,8 +64,8 @@ main section {
     padding: 2rem;
 }
 
-.home {
-    background-image: url(assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
+.home-section {
+    background-image: url(./assets/eCommerce\ Site\ Resources/UX-HTML-CSS/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
     background-size: cover;
     padding-top: 30px;
     padding-bottom: 40px;
