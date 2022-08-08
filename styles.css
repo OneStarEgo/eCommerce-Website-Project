@@ -59,35 +59,52 @@ main {
     width: 80%;
 }
 
-.section-wrapper {
-    height: 250px;
-}
-
 main section {
     margin-top: 6rem;
     padding: 2rem;
 }
 
-.home-section {
+.home-section{
     background-image: url("./assets/eCommerce Site Resources/UX-HTML-CSS/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 .home-section {
     background-color: rgb(204, 160, 50);
+    height: 250px;
 }
 
 .about-section {
     background-color: rgb(50, 86, 204);
 }
 
-.products-section {
+.products-section{
     background-color: rgb(50,204,106);
 }
 
+.products-layout {
+    display: grid;
+    grid-template-areas: "top-l top-m top-r"
+        "mid-l mid-m mid-r"
+        "bot-l bot-m bot-r";
+}
 
+.image-container {
+    width: 125px;
+    height: 400px;
+}
+
+.image {
+    width: 100%;
+}
 
 .contact-section {
     background-color: darkorchid;
+    height: 250px;
 }
 
 footer {
