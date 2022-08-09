@@ -42,7 +42,8 @@ li a {
 }
 
 .logo {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .search-container {
@@ -56,7 +57,7 @@ li a {
 
 main {
     margin: 1rem auto;
-    width: 80%;
+    width: 100%;
 }
 
 main section {
@@ -64,26 +65,41 @@ main section {
     padding: 2rem;
 }
 
-.home-section{
+.home-section {
     background-image: url("./assets/eCommerce Site Resources/UX-HTML-CSS/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
     background-size: cover;
     padding-top: 30px;
     padding-bottom: 40px;
-    margin-left: 2em;
-    margin-right: 2em;
+    height: 692px;
 }
 
-.home-section {
-    background-color: rgb(204, 160, 50);
-    height: 250px;
+.homestr-container {
+    position: absolute;
+    top: 26%;
+    left: 75px;
+    color: white;
+    font-size: xx-large;
+}
+
+.homestr-container2 {
+    position: absolute;
+    top: 64%;
+    right: 80px;
+    color: white;
+    font-size: xx-large;
 }
 
 .about-section {
     background-color: rgb(50, 86, 204);
 }
 
+.about-section-text {
+    font-size: xx-large;
+}
+
 .grid-container {
     display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
 
 .about-image-container {
@@ -94,6 +110,10 @@ main section {
 
 .products-section{
     background-color: rgb(50,204,106);
+}
+
+.products-section-text {
+    font-size: xx-large;
 }
 
 .flex-container {
@@ -115,6 +135,10 @@ main section {
 .contact-section {
     background-color: darkorchid;
     height: 250px;
+}
+
+.contact-section-text {
+    font-size: xx-large;
 }
 
 footer {
